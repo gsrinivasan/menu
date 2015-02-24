@@ -26,7 +26,7 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<b class="caret"></b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="glyphicon glyphicon-menu-down"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="food.html">Food Menu</a></li>
 							<li><a href="drinks.html">Drink Menu</a></li>
@@ -40,13 +40,19 @@
 	</div>
 
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
-				<hr></hr>
-				<h3 class="text-center">Drinks</h3>
-				<hr></hr>
-			        <h4>COCKTAILS</h4>
-			            <ul>
+		<hr></hr>
+		<h4 class="text-center">Drinks</h4>
+		<hr></hr>
+	    <div class="panel-group" id="accordion">
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cocktails <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseOne" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    <ul>
 			                <li><span class="name">Pretty Mess | </span>vodka, pomegranate molasses, peach liqueur, lime<span class="price"> - 10</span></li>
 			                <li><span class="name">Rio Del Italiano | </span>cachaca, cointreau, campari, orange bitters<span class="price"> - 9</span></li>
 			                <li><span class="name">La Flor | </span>hendrick's gin, apple brandy, elderflower syrup<span class="price">- 11</span></li>
@@ -58,8 +64,18 @@
 			                <li><span class="name">Ginger Grant | </span>domaine de canton, vergano americano, lemon<span class="price"> - 11</span></li>
 			                <li><span class="name">Quince Sidecar | </span>fundador brandy, quince syrup, cointreau, lemon<span class="price"> - 10</span></li>
 			            </ul>
-			        <h4>LIQUOR</h4>
-				        <h5>VODKA</h5>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Liquor <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseTwo" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    <h5>VODKA</h5>
 				            <ul>
 				                <li>Portland 88</li>
 				                <li>Monopolowa</li>
@@ -76,73 +92,111 @@
 				                <li>Bacardi Light</li>
 				                <li>Cruzan Black Strap</li>
 				            </ul>
-			        <h4>BEER</h4>
-			            <ul>
-			                <li>Draft beer available on request, ask your server for today's selections<span class="price"> - 4</span></li>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Beer <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseThree" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    Draft beer available on request, ask your server for today's selections<span class="price"> - 4</span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Wine <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseFour" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    Wine parinings available upon request<span class="price"> - 25</span>
+						<h5>WINES BY THE GLASS</h5>
+						    <ul>
+						        <li>Riesling 'Tradition' '13, Robert Weil Reingau, GR<span class="price"> - 9/44</span></li>
+						        <li>Pinot Gris 'Maresh Vineyard' '13, Teutonic, Dundee, OR<span class="price"> - 11/48</span></li>
+						        <li>Chardonnay '12, Pascale Matrot, Burgundy, FR<span class="price"> - 11/48</span></li>
+						        <li>Cava Rosat Reserva NV, Avinyo, Spain<span class="price"> - 11/48</span></li>
+						        <li>Cabernet Franc '06, Olga Raffault, Chinon, FR<span class="price"> - 11/48</span></li>
+						        <li>Pinot Noir '11, Tyee, Willamette Valley, OR<span class="price"> - 11/48</span></li>
+						        <li>Subduction Red '12, Syncline, Columbia Valley, WA<span class="price"> - 9/44</span></li>
+						    </ul>
+						<h5>WINES BY THE BOTTLE</h5>
+						    <ul>
+						        <li>White & Rose
+						            <ul>
+						                <li>Teutonic '13, Gewurztraminer 'Crow Valley', Dundee, OR<span class="price"> - 46</span></li>
+						                <li>St. Innocent '12, Chardonnay, Willamette Valley, OR<span class="price"> - 44</span></li>
+						                <li>Donnhoff '13, Estate Riesling, Nahe, Germany<span class="price"> - 48</span></li>
+						                <li>Peter Schandl '11, Pinot Blanc, Burgenland, Austria<span class="price"> - 46</span></li>
+						                <li>Lioco '12, Chardonnay, Sonoma, CA<span class="price"> - 44</span></li>
+						                <li>Francois Pinon '10, Vouvray 'Les Trois Argiles,' France<span class="price"> - 46</span></li>
+						                <li>Daniel Dampt '11, Chablis Fouchaume Premier Cru, FR<span class="price"> - 65</span></li>
+						            </ul>
+						        </li>
+						        <li>Sparkling
+						            <ul>
+						                <li>Syncline, Brut Rose 'Scintillation,' Columbia Valley, WA<span class="price"> - 52</span></li>
+						                <li>Albert Bichot, Cremant de Bourgogne, Brut NV, France<span class="price"> - 42</span></li>
+						                <li>Gaston Chiquet, Tradition Brut NV, Champagne, France<span class="price"> - 44</span></li>
+						                <li>Baumard, Cremant de Loire, Brut NV, France<span class="price"> - 44</span></li>
+						            </ul>
+						        </li>
+						        <li>Red
+						            <ul>
+						                <li>Purple Hands '11, Pinot Noir 'Stoller Vineyard,' Willamette Valley, OR <span class="price"> - 58</span></li>
+						                <li>Cana's Feast '09, Pinot Noir 'Eola-Amity Hills,' Yamhill-Carlton, OR<span class="price"> - 48</span></li>
+						                <li>St. Innocent 11, Pinot Noir 'Temperance Hill,' Willamette Valley, OR<span class="price"> - 58</span></li>
+						                <li>Teutonic '13, Pinot Meunier 'Barco Pass,' Dundee, OR<span class = "price"> - 56</span></li>
+						                <li>Syncline '12, Carignan Grenache, Columbia Valley, WA<span class="price"> - 56</span></li>
+						                <li>Chateau Thivin '13, Cotes de Brouilly, Beaujolais, France<span class="price"> - 52</span></li>
+						                <li>Sky '09, Zinfandel 'Mt Veeder,' Napa Valley, CA<span class="price"> - 62</span></li>
+						                <li>Candialle '10, Chianti Classico, Italy<span class="price"> - 52</span></li>
+						                <li>Remelluri '09, Tempranillo Reserva, Rioja, Spain<span class="price"> - 65</span></li>
+						            </ul>
+						        </li>
+						    </ul>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Non-Alcoholic Beverages <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseFive" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    <ul>
+			                <li><span class="name">Cherry Fizz | </span>cherry juice, lemon juice, lime juice, soda, vanilla<span class="price"> - 5</span></li>
+			                <li><span class="name">Sparkling Cider | </span>duche de longueville, Normandy, France<span class="price"> - 5</span></li>
+			                <li><span class="name">Pear Blossom | </span>pear nectar, elderflower syrup, lemon<span class="price"> - 5</span></li>
+			                <li><span class="name">Ginger Snap | </span>tamarind vinegar, reed's ginger brew, lime<span class="price"> - 5</span></li>
 			            </ul>
-			        <h4>WINE</h4>
-			            <ul>
-			                <li>Wine parinings available upon request<span class="price"> - 25</span></li>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="panel panel-default">
+	            <div class="panel-heading">
+	                <h4 class="panel-title text-center">
+	                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Coffee & Tea <b class="glyphicon glyphicon-menu-down"></b></a>
+	                </h4>
+	            </div>
+	            <div id="collapseSix" class="panel-collapse collapse">
+	                <div class="panel-body">
+	                    <ul>
+			                <li>French Press Coffee from Stumptown<span class="price"> - 3.5/6</span></li>
+			                <li>Foxfire Teas<span class="price"> - 3.50</li>
 			            </ul>
-				        <h5>WINES BY THE GLASS</h5>
-				            <ul>
-				                <li>Riesling 'Tradition' '13, Robert Weil Reingau, GR<span class="price"> - 9/44</span></li>
-				                <li>Pinot Gris 'Maresh Vineyard' '13, Teutonic, Dundee, OR<span class="price"> - 11/48</span></li>
-				                <li>Chardonnay '12, Pascale Matrot, Burgundy, FR<span class="price"> - 11/48</span></li>
-				                <li>Cava Rosat Reserva NV, Avinyo, Spain<span class="price"> - 11/48</span></li>
-				                <li>Cabernet Franc '06, Olga Raffault, Chinon, FR<span class="price"> - 11/48</span></li>
-				                <li>Pinot Noir '11, Tyee, Willamette Valley, OR<span class="price"> - 11/48</span></li>
-				                <li>Subduction Red '12, Syncline, Columbia Valley, WA<span class="price"> - 9/44</span></li>
-				            </ul>
-				        <h5>WINES BY THE BOTTLE</h5>
-				            <ul>
-				                <li>White & Rose
-				                    <ul>
-				                        <li>Teutonic '13, Gewurztraminer 'Crow Valley', Dundee, OR<span class="price"> - 46</span></li>
-				                        <li>St. Innocent '12, Chardonnay, Willamette Valley, OR<span class="price"> - 44</span></li>
-				                        <li>Donnhoff '13, Estate Riesling, Nahe, Germany<span class="price"> - 48</span></li>
-				                        <li>Peter Schandl '11, Pinot Blanc, Burgenland, Austria<span class="price"> - 46</span></li>
-				                        <li>Lioco '12, Chardonnay, Sonoma, CA<span class="price"> - 44</span></li>
-				                        <li>Francois Pinon '10, Vouvray 'Les Trois Argiles,' France<span class="price"> - 46</span></li>
-				                        <li>Daniel Dampt '11, Chablis Fouchaume Premier Cru, FR<span class="price"> - 65</span></li>
-				                    </ul>
-				                </li>
-				                <li>Sparkling
-				                    <ul>
-				                        <li>Syncline, Brut Rose 'Scintillation,' Columbia Valley, WA<span class="price"> - 52</span></li>
-				                        <li>Albert Bichot, Cremant de Bourgogne, Brut NV, France<span class="price"> - 42</span></li>
-				                        <li>Gaston Chiquet, Tradition Brut NV, Champagne, France<span class="price"> - 44</span></li>
-				                        <li>Baumard, Cremant de Loire, Brut NV, France<span class="price"> - 44</span></li>
-				                    </ul>
-				                </li>
-				                <li>Red
-				                    <ul>
-				                        <li>Purple Hands '11, Pinot Noir 'Stoller Vineyard,' Willamette Valley, OR <span class="price"> - 58</span></li>
-				                        <li>Cana's Feast '09, Pinot Noir 'Eola-Amity Hills,' Yamhill-Carlton, OR<span class="price"> - 48</span></li>
-				                        <li>St. Innocent 11, Pinot Noir 'Temperance Hill,' Willamette Valley, OR<span class="price"> - 58</span></li>
-				                        <li>Teutonic '13, Pinot Meunier 'Barco Pass,' Dundee, OR<span class = "price"> - 56</span></li>
-				                        <li>Syncline '12, Carignan Grenache, Columbia Valley, WA<span class="price"> - 56</span></li>
-				                        <li>Chateau Thivin '13, Cotes de Brouilly, Beaujolais, France<span class="price"> - 52</span></li>
-				                        <li>Sky '09, Zinfandel 'Mt Veeder,' Napa Valley, CA<span class="price"> - 62</span></li>
-				                        <li>Candialle '10, Chianti Classico, Italy<span class="price"> - 52</span></li>
-				                        <li>Remelluri '09, Tempranillo Reserva, Rioja, Spain<span class="price"> - 65</span></li>
-				                    </ul>
-				                </li>
-				            </ul>
-			        <h4>NON-ALCOHOLIC BEVERAGES</h4>
-				        <ul>
-				            <li><span class="name">Cherry Fizz |</span>cherry juice, lemon juice, lime juice, soda, vanilla<span class="price"> - 5</span></li>
-				            <li><span class="name">Sparkling Cider |</span>duche de longueville, Normandy, France<span class="price"> - 5</span></li>
-				            <li><span class="name">Pear Blossom |</span>pear nectar, elderflower syrup, lemon<span class="price"> - 5</span></li>
-				            <li><span class="name">Ginger Snap |</span>tamarind vinegar, reed's ginger brew, lime<span class="price"> - 5</span></li>
-				        </ul>
-			        <h4>COFFEE & TEA</h4>
-				        <ul>
-				            <li>French Press Coffee from Stumptown<span class="price"> - 3.5/6</span></li>
-				            <li>Foxfire Teas<span class="price"> - 3.50</li>
-				        </ul>
-			</div>
-		</div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
 	</div>
 		
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
