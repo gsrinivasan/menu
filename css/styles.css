@@ -1,24 +1,38 @@
 body {
-	/*font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-	/*background: url('../img/bg.jpg') no-repeat center center fixed;*/
 	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background: url('../img/wood.jpg');
+	font-family: "Abemo";
+	font-size: 1.5em;
 	
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
 	text-transform: uppercase;
-	/*font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 	font-family: "Abemo";
 	font-weight: 400;
 	letter-spacing: 1;
 	color: #400000;
 }
 
-.title, .address {
+h5, h6 {
+	text-transform: capitalize;
+	font-family: "Abemo";
+	font-size: 1.1em;
+	color: #400000;
+}
+
+.title {
+	text-transform: uppercase;
+	color: #400000;
+	letter-spacing: 3;
+	font-size: 3em;
+}
+
+.address {
+	text-transform: capitalize;
 	color: #400000;
 	letter-spacing: 2;
-	text-transform: capitalize;
+	font-size: 1.5em;
 }
 
 .navbar, .dropdown-menu {
@@ -60,9 +74,19 @@ hr {
 	background: #FFFFCC;
 }
 
-.modal {
-	color: #400000;
+.modal-header, .modal-body, .modal-footer {
+    border: 1px solid #800000;
+    background-color: #FFFFCC;
 }
+
+/*th {
+	border-top: 2px solid #400000;
+	border-bottom: 1px solid #400000;
+}
+
+td {
+	border-bottom: 1px solid #400000;
+}*/
 
 .panel-group .panel-heading {
 	background-color: #400000;
@@ -74,5 +98,17 @@ hr {
 }
 
 .panel-group .panel-body .name {
-	font-style: strong;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	color: #400000;
+}
+
+.panel-group .panel-body .ingredients, .location {
+	font-style: italic;
+}
+
+.panel-group .panel-body .price {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	color: #400000;
 }
