@@ -3,6 +3,7 @@ body {
 	background: url('../img/wood.jpg');
 	font-family: "Abemo";
 	font-size: 1.5em;
+	background: url('../img/wood.JPG');
 	
 }
 
@@ -98,6 +99,7 @@ td {
 }
 
 .panel-group .panel-body .name {
+<<<<<<< HEAD
 	font-variant: small-caps;
 	font-size: 1.2em;
 	color: #400000;
@@ -111,4 +113,7 @@ td {
 	font-variant: small-caps;
 	font-size: 1.2em;
 	color: #400000;
+=======
+	font-style: strong;
+>>>>>>> origin/gh-pages
 }
