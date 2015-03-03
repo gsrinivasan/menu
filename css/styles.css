@@ -1,21 +1,47 @@
 body {
+	/*font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	/*background: url('../img/bg.jpg') no-repeat center center fixed;*/
 	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background: url('../img/bg.jpg') no-repeat center center fixed;
+	background: url('../img/wood.jpg');
+	
 }
 
-h1, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
-	font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 700;
+	/*font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family: "Abemo";
+	font-weight: 400;
 	letter-spacing: 1;
+	color: #400000;
 }
 
-h1 {
-	color: white;
+.title, .address {
+	color: #400000;
+	letter-spacing: 2;
+	text-transform: capitalize;
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
+.navbar, .dropdown-menu {
+    background-color: #FFFFCC;
+    border-color: #FFFFCC;
+    color: #400000;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.navbar li {
+	color: #400000;
+}
+
+.navbar-nav {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+	display: inline-block;
     float: none;
     vertical-align: top;
 }
@@ -25,11 +51,28 @@ h1 {
 }
 
 hr {
-	border-color: #999999;
+	border-color: #400000;
 }
 
 .box {
 	margin-bottom: 20px;
 	padding: 30px 15px;
-	background: white;
+	background: #FFFFCC;
+}
+
+.modal {
+	color: #400000;
+}
+
+.panel-group .panel-heading {
+	background-color: #400000;
+	color: white;
+}
+
+.panel-group .panel-body {
+	background-color: #FFFFCC;
+}
+
+.panel-group .panel-body .name {
+	font-style: strong;
 }
