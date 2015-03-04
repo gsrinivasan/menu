@@ -80,14 +80,19 @@ hr {
     background-color: #FFFFCC;
 }
 
-/*th {
+th {
 	border-top: 2px solid #400000;
 	border-bottom: 1px solid #400000;
 }
 
+tbody{
+	border-spacing: 2px;
+	border-top: 3px solid #400000;
+}
+
 td {
 	border-bottom: 1px solid #400000;
-}*/
+}
 
 .panel-group .panel-heading {
 	background-color: #400000;
